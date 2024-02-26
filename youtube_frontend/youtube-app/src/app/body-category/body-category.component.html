@@ -1,1 +1,6 @@
-<p>body-category works!</p>
+<div class="mainnav">
+    @for (item of Categories; track $index) {
+        <app-body-category-list [category]="item"></app-body-category-list>
+    }
+    
+</div>

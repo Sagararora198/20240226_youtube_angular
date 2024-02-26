@@ -1,0 +1,17 @@
+.itemName{
+    /* width: 49.47px; */
+    height: 31px;
+    /* min-width: 0; */
+    background-color: #3F3F3F;
+    border-radius: 9px;
+    display: flex;
+    min-width: 40.47px;
+    max-width: 100%;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    /* border-radius: 50%; */
+    padding-right: 5px;
+    padding-left: 5px;
+}

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NgStyle } from '@angular/common';
 import { SubscriptionlistComponent } from '../subscriptionlist/subscriptionlist.component';
+import { RouterOutlet,RouterLink } from '@angular/router';
 @Component({
   selector: 'app-body-left',
   standalone: true,
-  imports: [NgStyle,SubscriptionlistComponent],
+  imports: [NgStyle,SubscriptionlistComponent,RouterOutlet,RouterLink],
   templateUrl: './body-left.component.html',
   styleUrl: './body-left.component.css'
 })

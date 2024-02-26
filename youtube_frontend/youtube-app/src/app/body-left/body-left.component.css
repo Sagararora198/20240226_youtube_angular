@@ -38,6 +38,7 @@ path {
 
 .SubscriptionBar>.text{
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .homeBar{

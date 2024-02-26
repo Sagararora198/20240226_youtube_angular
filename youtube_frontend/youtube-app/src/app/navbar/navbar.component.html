@@ -23,6 +23,12 @@
     <div class="navProfile">
         <div class="videocall material-symbols-outlined">video_call</div>
         <div class="bellicon material-icons">notifications</div>
-        <div class="profile material-symbols-outlined">account_circle</div>
+        <div class="profile material-symbols-outlined" (click)="toggleVisibility()">account_circle</div>
     </div>
 </header>
+@if (isVisible) {
+
+    <div class="drop-down">
+        <div class="setting"><a routerLink="/setting" >Setting</a></div>
+    </div>
+}

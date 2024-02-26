@@ -113,3 +113,17 @@
     background-color: transparent;
     
 }
+
+.drop-down{
+    display: flex;
+    position: absolute;
+    width: 152px;
+    /* left: 1524px; */
+    right: 18px;
+    /* color: white; */
+    /* background-color: wheat; */
+    z-index: 10;
+}
+.setting{
+    color: white;
+}

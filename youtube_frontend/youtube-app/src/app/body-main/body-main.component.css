@@ -1,0 +1,42 @@
+.mainvideos{
+    width: 1119px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+.rowboxes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.videobox{
+    display: flex;
+    flex-direction: column;
+
+}
+.video>img{
+    width: 352px;
+    height: 229px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.videotextandmore{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+
+
+.videotext{
+    display: flex;
+    width: 221px;
+    justify-content: space-between;
+
+}
+.description{
+    font-size: 15px;
+}
