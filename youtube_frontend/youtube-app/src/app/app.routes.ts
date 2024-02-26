@@ -6,11 +6,11 @@ export const routes: Routes = [
         path:'',
         component:HomepageComponent
     },
-    {
-        path:'/setting',
+    // {
+    //     path:'/setting',
         
-    },
-    {
-        path:'/subscription',
-    }
+    // },
+    // {
+    //     path:'/subscription',
+    // }
 ];
