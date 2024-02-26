@@ -1,0 +1,98 @@
+path {
+    
+    filter: invert(100%);
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 87px;
+    
+}
+
+
+.leftAside{
+    height: 100%;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.leftbar{
+    display: flex;
+    justify-content: space-between;
+    width: 83px;
+    height: 40px;
+    margin-left: 17px;
+    align-items: center;
+}
+.text{
+    font-size: 14px;
+    color: #F1F1F1;
+    margin-top:2px
+    
+}
+
+
+.SubscriptionBar>.text{
+    margin-left: 20px;
+}
+
+.homeBar{
+    color: #F1F1F1;
+    background-color: #F1F1;
+    width: 144px;
+    justify-content: start;
+    border-radius: 8px;
+}
+.homeBar .text{
+    background-color: transparent;
+    margin-left: 24px;
+}
+.homeBar .logo{
+    background-color: transparent;
+}
+
+.division{
+    border:none;
+    border-top: 1px solid  #8c8b8b;
+    margin-top: 13px;
+}
+
+.youbar{
+    display: flex;
+    margin-left: 21px;
+    margin-top: 19px;
+}
+
+.youbar>.text{
+    font-weight: 900;
+    font-size: 15px;
+
+}
+
+.yourChannelBar , .myVideos , .showmorebar {
+    width: 122px;
+    
+}
+.subscriptions{
+    margin-bottom: 10px;
+}
+
+.yourChannelBar>.text{
+    margin-left: 20px;
+    
+}
+.historyBar>.text{
+    margin-right: -6px;
+}
+.myVideos>.text{
+    margin-left: 23px;
+    margin-right: 5px;
+}
+.showmorebar>.text{
+    margin-left: 23px;
+    margin-right: 8px;
+}
