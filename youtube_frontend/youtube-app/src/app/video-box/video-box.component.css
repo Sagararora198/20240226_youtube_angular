@@ -1,6 +1,7 @@
 .videobox{
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 
 }
 .video>img{
@@ -26,4 +27,6 @@
 }
 .description{
     font-size: 15px;
+    color: white;
+    
 }

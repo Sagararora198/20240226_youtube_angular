@@ -116,13 +116,29 @@
 
 .drop-down{
     display: flex;
+    flex-direction: column;
     position: absolute;
-    width: 152px;
-    /* left: 1524px; */
+    /* width: 152px; */
+    height: 80vh;
+    background-color:#3F3F3F ;
     right: 18px;
-    /* color: white; */
-    /* background-color: wheat; */
     z-index: 10;
+    justify-content: space-around;
+
+
+}
+.box{
+    background-color: #3F3F3F;
+    display: flex;
+    justify-content: center;
+
+}
+.box>div{
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
 }
 .setting{
     color: white;
