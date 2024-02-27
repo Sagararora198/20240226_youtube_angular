@@ -1,1 +1,12 @@
-<p>video-box works!</p>
+<div class="videobox">
+    <div class="video">
+        <img [src]="video.video_preview">
+    </div>
+    <div class="videotextandmore">
+        <div class="videotext">
+            <div class="profilelogo material-symbols-outlined">account_circle</div>
+            <div class="description">{{video.video_desc}}</div>
+        </div>
+        <div class="videomore material-symbols-outlined">more_vert</div>
+    </div>
+</div>

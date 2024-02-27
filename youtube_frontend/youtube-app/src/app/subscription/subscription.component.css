@@ -7,14 +7,27 @@
     position: absolute;
     left: 331px;
     height: 100%;
+    flex-direction: column;
     width: 80%;
 }
-app-body-category{
+app-body-category {
     position: relative;
     left: 30px;
+    height: fit-content;
+    width: fit-content;
 }
 app-body-main{
     position: relative;
     right: 1082px;
     top: 70px;
+}
+.mainvideos{
+    width: 1119px;
+    display: flex;
+    padding-top: 12px;
+    flex-wrap: wrap;
+
+}
+app-video-box{
+    flex: 0 0 calc(33.33%);
 }

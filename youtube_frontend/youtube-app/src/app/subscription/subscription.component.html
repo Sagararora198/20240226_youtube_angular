@@ -2,8 +2,24 @@
 <div class="main-body">
 
     <app-body-left></app-body-left>
+    
+        
+
+
+    
     <div class="middle-body">
 
-        <p>Subscriptions</p>
+        <app-body-category></app-body-category>
+        <div class="mainvideos">
+
+            @for (video of Videos; track $index) {
+                @if (video.subscribed==true) {
+                    
+                    <app-video-box [video]="video"></app-video-box>
+                }
+                
+            }
+        </div>
+        
     </div>
 </div>

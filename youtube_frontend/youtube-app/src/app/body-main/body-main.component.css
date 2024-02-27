@@ -1,9 +1,13 @@
 .mainvideos{
     width: 1119px;
-    height: 520px;
+    /* height: 520px; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-top: 12px;
+    flex-wrap: wrap;
+}
+app-video-box{
+    flex: 0 0 calc(33.33%);
 }
 .rowboxes{
     display: flex;
